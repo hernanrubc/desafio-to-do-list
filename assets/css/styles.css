@@ -1,0 +1,98 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f0f0f0;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.input-container {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    font-family: "Montserrat", sans-serif;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-agregar {
+    padding: 10px 20px;
+    background-color: #10922f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-agregar:hover {
+    background-color: #38e25d;
+}
+
+.contador-tareas {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tareas-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tareas-lista li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tareas-lista li span {
+    flex: 1;
+}
+
+.tareas-lista input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.tareas-lista button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.tareas-lista button:hover {
+    background-color: #c82333;
+}
